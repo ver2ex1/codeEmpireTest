@@ -1,0 +1,55 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.modalContent {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.modalInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalData {
+  float: left;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.modalData > img {
+  float: left;
+}
+
+.modalData > span ~ span {
+  float: right;
+  margin-left: 200px;
+}
+
+.modalData > span {
+  float: left;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: #2196f3;
+  color: white;
+  width: 170px;
+  border-radius: 50px;
+  padding: 5px;
+}

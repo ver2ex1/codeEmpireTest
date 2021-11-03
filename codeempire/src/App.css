@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.mainHeader {
+  height: 100px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.stat {
+  float: left;
+  margin-top: 30px;
+}
+
+.inputSearch {
+  margin-bottom: 10px;
+}
+
+.countries {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headCountry {
+  display: flex;
+  width: 80%;
+  background-color: #2196f3;
+  border-radius: 50px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  height: 100%;
+}
+
+.countryDiv {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  height: 100%;
+}
+
+.total {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 175px;
+  width: 300px;
+}
+
+.totalConf {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 175px;
+  width: 300px;
+}
+
+.headCountry > p {
+  font-weight: bold;
+}
+
+.countryDiv > p {
+  font-weight: bold;
+}
+
+.num {
+  margin-left: 30px;
+}
+
+.number {
+  margin-left: 30px;
+}
+
+.country {
+  margin-left: 30px;
+}
+
+.name {
+  margin-left: 30px;
+}
